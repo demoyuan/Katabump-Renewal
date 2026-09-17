@@ -2,8 +2,7 @@ name: Katabump Auto Renew
 
 on:
   schedule:
-    # 每天北京时间凌晨5点（UTC 21:00）
-    - cron: "0 21 * * *"
+    - cron: "20 23 * * *"
   workflow_dispatch:
 
 permissions:
